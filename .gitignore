@@ -1,0 +1,35 @@
+# ── Credenciales y configuración local ──
+config/Conexion.php
+.env
+.env.*
+!.env.example
+
+# ── Dependencias (Composer) ──
+vendor/
+composer.phar
+
+# ── Logs y temporales ──
+*.log
+logs/
+tmp/
+*.tmp
+*.bak
+*.swp
+
+# ── Archivos subidos por usuarios ──
+uploads/
+
+# ── Sistema operativo ──
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+._*
+
+# ── IDE / editores / herramientas ──
+.vscode/
+.idea/
+nbproject/
+*.sublime-project
+*.sublime-workspace
+.claude/
